@@ -43,10 +43,10 @@ export const messages = {
         let message ='';
         if(domain === 'random'){
             domain = this.jokes.concat(this.inspiration, this.astrology);
-            const indexNum = Math.floor(Math.random()*domain.length+1);
+            const indexNum = Math.floor(Math.random()*domain.length);
             message = domain[indexNum];
         } else {
-            const indexNum = Math.floor(Math.random()*this[domain].length+1);
+            const indexNum = Math.floor(Math.random()*this[domain].length);
             message = this[domain][indexNum];
         }
         return message;
