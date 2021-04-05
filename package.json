@@ -1,0 +1,21 @@
+{
+  "name": "mixed-messages",
+  "version": "1.0.0",
+  "description": "random messages generator",
+  "main": "messages.js",
+  "type": "module",
+  "scripts": {
+    "build": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunescuD/mixed-messages.git"
+  },
+  "author": "Daniel Brunescu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunescuD/mixed-messages/issues"
+  },
+  "homepage": "https://github.com/brunescuD/mixed-messages#readme"
+}
